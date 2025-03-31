@@ -1,0 +1,41 @@
+.material-symbols-outlined {
+    position: absolute;  /* Keeping it absolute to position it relative to the parent container */
+    top: 20%;  /* Vertically center the icon */
+    left: 68%;  /* Adjust the left positioning as needed */
+    transform: translateY(-50%);  /* Center the icon vertically */
+    font-size: 20px;
+    color: rgb(30, 26, 26);  /* Red color */
+    padding: 3px;  /* You can adjust padding to ensure icon does not overlap */
+}
+#datepicker {
+    position: relative;  /* This is needed for absolute positioning of the icon */
+    padding-left: 30px;  /* Add padding to the left so the icon doesn't overlap with the input text */
+}
+.container{
+    display: flex;
+    width: 100%;
+    flex-direction: column; /* Stack the input, icon, button, and result vertically */
+    align-items: center; /* Center everything horizontally */
+    justify-content: center; /* Align the content vertically in the container */
+    margin-top: 50px;
+    width: 100%;
+    max-width: 400px;  /* Optional, you can set a max-width if you want to limit the form width */
+    margin-left: auto;
+    margin-right: auto
+}
+input{
+
+}
+#calculate{
+    margin-left: 10px;
+    color: rgb(193, 32, 32);
+    background-color: rgb(255, 255, 255);
+}
+button:hover {
+    background-color: #45a049;  /* Darker green when hovering */
+}
+
+#result {
+    font-size: 16px;
+    margin-top: 10px;
+}
